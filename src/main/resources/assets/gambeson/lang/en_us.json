@@ -1,3 +1,4 @@
 {
-  "item.gambeson.coin": "Coin"
+  "item.gambeson.coin": "Coin",
+  "itemgroup.gambeson.money_items": "Money"
 }

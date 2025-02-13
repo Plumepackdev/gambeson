@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import plume.mod.item.ModItemGroups;
 import plume.mod.item.ModItems;
 
 public class Gambeson implements ModInitializer {
@@ -17,5 +18,6 @@ public class Gambeson implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }

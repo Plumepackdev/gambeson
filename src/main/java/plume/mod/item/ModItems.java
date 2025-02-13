@@ -21,8 +21,10 @@ public class ModItems {
     public static void registerModItems(){
         Gambeson.LOGGER.info("Registering items for "+Gambeson.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(COIN);
-        });
+
+        //Puts in ingredients tab
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
+        //    fabricItemGroupEntries.add(COIN);
+        //});
     }
 }
