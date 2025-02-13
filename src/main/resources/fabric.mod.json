@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "gambeson",
+	"version": "${version}",
+	"name": "Gambeson",
+	"description": "Adds medieval equipment, weapons and other features",
+	"authors": [
+		"_Plume"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "AAR",
+	"icon": "assets/gambeson/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"plume.mod.Gambeson"
+		],
+		"client": [
+			"plume.mod.GambesonClient"
+		],
+		"fabric-datagen": [
+			"plume.mod.GambesonDataGenerator"
+		]
+	},
+	"mixins": [
+		"gambeson.mixins.json",
+		{
+			"config": "gambeson.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
