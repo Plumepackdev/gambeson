@@ -16,6 +16,7 @@ public class ModItemGroups {
             .displayName(Text.translatable("itemgroup.gambeson.money_items"))
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.COIN);
+                entries.add(ModItems.MELTED_GOLD);
             })
             .build());
 

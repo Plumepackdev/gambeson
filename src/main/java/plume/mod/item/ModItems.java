@@ -13,6 +13,8 @@ import plume.mod.Gambeson;
 public class ModItems {
 
     public static final Item COIN=registerItem("coin",new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Gambeson.MOD_ID,"coin")))));
+    public static final Item MELTED_GOLD=registerItem("melted_gold",new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Gambeson.MOD_ID,"melted_gold")))));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Gambeson.MOD_ID,name),item);
