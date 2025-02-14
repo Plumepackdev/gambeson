@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "gambeson:block/pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "gambeson:block/pillar"
+    },
+    "axis=z": {
+      "model": "gambeson:block/pillar_horizontal",
+      "x": 90
+    }
+  }
+}

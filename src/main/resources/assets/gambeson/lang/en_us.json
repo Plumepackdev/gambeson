@@ -1,5 +1,7 @@
 {
   "item.gambeson.coin": "Coin",
   "item.gambeson.melted_gold": "Melted gold",
+  "item.gambeson.condensed_dirt": "Condensed Dirt",
+  "item.gambeson.pillar": "Pillar",
   "itemgroup.gambeson.money_items": "Money"
 }

@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import plume.mod.Gambeson;
+import plume.mod.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -17,6 +18,8 @@ public class ModItemGroups {
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.COIN);
                 entries.add(ModItems.MELTED_GOLD);
+                entries.add(ModBlocks.CONDENSED_DIRT.asItem());
+                entries.add(ModBlocks.PILLAR.asItem());
             })
             .build());
 

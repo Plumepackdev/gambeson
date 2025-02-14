@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
+import net.minecraft.client.data.TexturedModel;
+import plume.mod.block.ModBlocks;
 import plume.mod.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -14,7 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CONDENSED_DIRT);
     }
 
     @Override

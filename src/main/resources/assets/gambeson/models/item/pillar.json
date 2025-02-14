@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/pillar",
+  "textures": {
+    "end": "gambeson:block/pillar_top",
+    "side": "gambeson:block/pillar"
+  }
+}
