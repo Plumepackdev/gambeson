@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gambeson:gambeson"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gambeson:gambeson"
+      }
+    ]
+  }
+}
